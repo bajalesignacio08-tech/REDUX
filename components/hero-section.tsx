@@ -7,17 +7,17 @@ export function HeroSection() {
     <section className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center px-4 py-20 text-center">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-secondary/30 blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-primary/20 blur-3xl" />
+        <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-secondary/40 blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-primary/30 blur-3xl" />
       </div>
       
       <div className="relative z-10 max-w-4xl">
-        <Badge className="mb-6 bg-secondary text-secondary-foreground border-none px-4 py-1.5 text-sm">
-          🚧 En desarrollo
+        <Badge className="mb-6 bg-primary text-primary-foreground border-none px-4 py-1.5 text-sm">
+          En desarrollo
         </Badge>
         
-        <h1 className="mb-6 text-5xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl text-balance">
-          <span className="text-accent">REDUX</span>
+        <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-balance">
+          <span className="text-primary">REDUX</span>
         </h1>
         
         <p className="mb-4 text-xl text-muted-foreground sm:text-2xl">
@@ -29,11 +29,11 @@ export function HeroSection() {
         </p>
         
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-          <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-lg">
+          <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg">
             <Link href="/contacto">Contáctanos</Link>
           </Button>
-          <Button asChild variant="outline" size="lg" className="border-border text-foreground hover:bg-secondary hover:text-secondary-foreground px-8 py-6 text-lg">
-            <a href="#saber-mas">Saber más ↓</a>
+          <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg">
+            <a href="#saber-mas">Saber mas</a>
           </Button>
         </div>
       </div>
