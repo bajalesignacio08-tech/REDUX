@@ -17,9 +17,6 @@ export function AboutSection() {
         <div className="bg-background rounded-2xl p-8 lg:p-12">
           <div className="grid gap-8 lg:grid-cols-2 items-center">
             <div>
-              <Badge className="mb-4 bg-primary text-primary-foreground border-none">
-                En desarrollo
-              </Badge>
               <h3 className="text-3xl font-bold text-foreground mb-4">
                REDUX
               </h3>
