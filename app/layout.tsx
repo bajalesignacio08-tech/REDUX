@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'REDUX - Proyecto en Desarrollo',
+  title: 'REDUX',
   description: 'REDUX - Un proyecto innovador en proceso de desarrollo',
   generator: 'v0.app',
   icons: {

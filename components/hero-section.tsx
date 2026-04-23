@@ -12,27 +12,26 @@ export function HeroSection() {
       </div>
       
       <div className="relative z-10 max-w-4xl">
-        <Badge className="mb-6 bg-primary text-primary-foreground border-none px-4 py-1.5 text-sm">
-          En desarrollo
-        </Badge>
         
-        <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-balance">
+        <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-sm">
           <span className="text-primary">REDUX</span>
         </h1>
-        
-        <p className="mb-4 text-xl text-muted-foreground sm:text-2xl">
-          [Placeholder: Eslogan del proyecto]
-        </p>
+
         
         <p className="mb-10 max-w-2xl mx-auto text-base text-muted-foreground/80 leading-relaxed">
-          [Placeholder: Breve descripción del proyecto REDUX. Este texto será reemplazado con la descripción real del proyecto una vez esté definida. Por ahora, es solo un marcador de posición para mostrar cómo se verá el contenido final.]
+          Exoesqueleto mecanico para la rehabilitacion y recuperacion de pacientes que hayan sufrido accidentes traumatologicos.
         </p>
         
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-          <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg">
+          <Button asChild size="lg" className="px-8 py-6 text-lg">
             <Link href="/contacto">Contáctanos</Link>
           </Button>
-          <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg">
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg"
+          >
             <a href="#saber-mas">Saber mas</a>
           </Button>
         </div>

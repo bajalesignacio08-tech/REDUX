@@ -13,10 +13,14 @@ export function Header() {
         </Link>
         
         <nav className="flex items-center gap-4">
-          <Button asChild variant="ghost" className="text-foreground hover:bg-secondary hover:text-secondary-foreground">
+          <Button
+            asChild
+            variant="outline"
+            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+          >
             <a href="#saber-mas">Saber más</a>
           </Button>
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
+          <Button asChild>
             <Link href="/contacto">Contáctanos</Link>
           </Button>
         </nav>

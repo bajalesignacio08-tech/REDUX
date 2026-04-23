@@ -12,12 +12,12 @@ export function Footer() {
             </div>
             <span className="text-lg font-bold text-primary-foreground">REDUX</span>
           </div>
-          
-          <p className="text-sm text-primary-foreground/70">
-            [Placeholder: 2026 REDUX. Todos los derechos reservados.]
-          </p>
-          
-          <Button asChild variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-background hover:text-primary">
+               
+          <Button
+            asChild
+            variant="outline"
+            className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
+          >
             <Link href="/contacto">Contactanos</Link>
           </Button>
         </div>
